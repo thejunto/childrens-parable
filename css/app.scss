@@ -1,0 +1,17 @@
+---
+# The scss file which include files from _sass/
+---
+
+@charset "utf-8";
+
+@import "bootstrap";
+{{ if site.url }}
+@import "fonts-with-url";
+{{ else }}
+@import "fonts";
+{{ endif }}
+@import "main";
+@import "pages";
+
+// Misc
+@import "margins";
