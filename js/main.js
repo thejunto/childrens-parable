@@ -12,7 +12,7 @@ jQuery(document).ready(function(e) {
 
 // magnificPopup for Mentors section
 jQuery(function($) {
-$('.overlay').magnificPopup({
+$('.video-popup').magnificPopup({
   type: 'iframe',
 
 
